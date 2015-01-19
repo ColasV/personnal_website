@@ -1,0 +1,31 @@
+body { 
+	padding-top: 40px;
+}
+
+.navbar-fixed-top {
+	height: 30px;
+	min-height: 30px;
+	background: none;
+	border-bottom: 0px solid grey;
+	box-shadow: none;
+
+}
+
+.navbar div, .navbar div a {
+	padding-top: 2px;
+	padding-bottom: 10px;
+}
+
+.navbar .navbar-nav {
+    display: inline-block;;
+    float: none;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+.navbar-header a {
+	font-size:0.9em;
+	min-height: 10px;
+}
