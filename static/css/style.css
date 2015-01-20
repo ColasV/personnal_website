@@ -1,27 +1,58 @@
 body { 
-	padding-top: 40px;
+	/*padding-top: 50px;*/
+	font-family:  calibri;
 }
 
-.navbar-fixed-top {
+h1 {
+	font-size:3.1em;
+	margin-bottom:0px;
+}
+
+h2 {
+	font-weight: bold;
+	font-size: 1.7em;
+}
+
+h3 {
+
+	font-size: 1.4em;
+}
+
+p {
+	font-size:1.3em;
+	color: grey;
+}
+
+h1.subtitle {
+	margin-top: 0px;
+	color: grey;
+	font-size: 1.5em;
+}
+
+.navbar {
 	height: 30px;
-	min-height: 30px;
+	min-height: 50px;
 	background: none;
 	border-bottom: 0px solid grey;
 	box-shadow: none;
 
 }
 
-.navbar div, .navbar div a {
-	padding-top: 2px;
-	padding-bottom: 10px;
+.navbar, .navbar  a {
+	padding-top: 5px;
+	font-size:1.2em;
+}
+
+.navbar a:hover {
+	border-bottom: 1px solid grey;
 }
 
 .navbar .navbar-nav {
-    display: inline-block;;
+    display: inline-block;
     float: none;
 }
 
-.navbar .navbar-collapse {
+.navbar {
     text-align: center;
 }
 

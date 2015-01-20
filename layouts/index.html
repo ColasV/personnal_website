@@ -1,41 +1,31 @@
-<html>
-<head>
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+{{ partial "header.html" }}
 
-	<link rel="stylesheet" type="text/css" href="{{ .Site.BaseUrl }}/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="{{ .Site.BaseUrl }}/css/bootstrap-theme.min.css">
-	<link rel="stylesheet" type="text/css" href="{{ .Site.BaseUrl }}/css/style.css">
-
-	<title>{{ .Title }}</title>
-</head>
-<body>
-
-<nav class="navbar navbar-default navbar-fixed-top">
-  <div class="container">
-    <div class="navbar-collapse">
+<nav class="navbar navbar-default">
       <ul class="nav navbar-nav">
       	<li><a href="/">.homepage</a></li>
       	{{ range .Site.Pages }}
 		<li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
 		{{ end }}
       </ul>
-    </div>
-  </div>
 </nav>
 
 <div class="container">
-	<h1 class="text-center">Nicolas Vignes</h1>
 	<div class="row">
 	<div class="col-sm-8 col-sm-offset-2">
+		<h1>Nicolas Vignes</h1>
+	<h1 class="subtitle">Software Engineering Student</h1>
 
-		<h3>About</h3>
-		<p>I'm a student in software ingeniering field at Grenoble INP - Ensimag. I'm 21 years old.</p>
+		<h2>About</h2>
+		<p>I'm a 21 years old French citizen. I'm currently studying Computer Science at Grenoble INP - Ensimag, one of the best french IT school.</p>
 
-		<h3>Ensimag</h3>
-		<p>Ensimag is the best</p>
+		<h2>Hobby</h2>
+		<p>I'm currently writing courses and ebooks for OpenClassrooms, a french website which provides free computer courses.</p>
+		<p>I'm also very interested in all the things that concern new technology and computer science, especially Apple products.</p>
+
+		<h2>This Website</h2>
+		<p>This website is an overview of my work during the recent years, personnal and school projects. You can also find my resume.</p>
 	</div>
 	</div>
 </div>
 
-</body>
-</html>
+{{ partial "footer.html" }}

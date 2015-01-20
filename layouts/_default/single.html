@@ -1,26 +1,12 @@
-<html>
-<head>
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+{{ partial "header.html" }}
 
-	<link rel="stylesheet" type="text/css" href="{{ .Site.BaseUrl }}/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="{{ .Site.BaseUrl }}/css/bootstrap-theme.min.css">
-	<link rel="stylesheet" type="text/css" href="{{ .Site.BaseUrl }}/css/style.css">
-
-	<title>{{ .Title }}</title>
-</head>
-<body>
-
-<nav class="navbar navbar-default navbar-fixed-top">
-  <div class="container">
-    <div class="navbar-collapse">
+<nav class="navbar navbar-default">
       <ul class="nav navbar-nav">
       	<li><a href="/">.homepage</a></li>
       	{{ range .Site.Pages }}
-			<li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+		<li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
 		{{ end }}
       </ul>
-    </div>
-  </div>
 </nav>
 
 <div class="container">
@@ -31,5 +17,4 @@
 	</div>
 </div>
 
-</body>
-</html>
+{{ partial "footer.html" }}
