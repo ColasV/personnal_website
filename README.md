@@ -1,2 +1,2 @@
 # personnal_website
-Personnel website using Hugo
+Personnal website using Hugo
