@@ -8,11 +8,16 @@ title = ".portofolio"
 
 ## Professional Experience
 
-### Internship at BNP Paribas CIB
-During a two-month internship I managed to realize multiple.
+### Internship at BNP Paribas CIB - London
+Python scripting, created Excel sheets (VBA) for traders using home-framework.
 
-### Internship at BNP Paribas ITP
+### Internship at BNP Paribas ITP - Montreuil
+Developped an automatic deployment tool for an application on various environment Python scripting, compilation (GCC, Makefile), SVN, Unix servers.
 
 ## Personnal project
+### Grenoble Tram
+Grenoble Tram is a website which provide schedule for bus and tram in Grenoble. Developed with Symfony2.
+
+[Grenoble Tram](http://grenoble-tram.fr)
 
 ## School projects
