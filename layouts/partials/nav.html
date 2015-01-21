@@ -1,0 +1,8 @@
+<nav class="navbar navbar-default">
+    <ul class="nav navbar-nav">
+        <li><a href="/">.homepage</a></li>
+        {{ range .Site.Pages }}
+        <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+        {{ end }}
+    </ul>
+</nav>
