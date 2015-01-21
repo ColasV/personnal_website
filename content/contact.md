@@ -6,4 +6,4 @@ title = ".contact"
 +++
 # Contact
 
-You can contact me at *nico.vignes@gmail.com*
+You can contact me at : *nico.vignes[at]gmail[dot]com*
