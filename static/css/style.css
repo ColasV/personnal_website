@@ -16,10 +16,17 @@ h2 {
 h3 {
 
 	font-size: 1.4em;
+	margin-bottom: 0px;
+}
+
+h4 {
+	font-size: 1.0em;
+	color: grey;
+	margin-top: 0px;
 }
 
 p {
-	font-size:1.3em;
+	font-size:1.2em;
 	color: grey;
 }
 
@@ -27,6 +34,10 @@ h1.subtitle {
 	margin-top: 0px;
 	color: grey;
 	font-size: 1.5em;
+}
+
+ul li {
+	font-size:1.2em;
 }
 
 .navbar {
